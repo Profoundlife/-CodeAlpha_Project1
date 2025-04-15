@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color:blueviolet;
+            color: #333333;
+        }
+
+        /* Navigation */
+        nav {
+            background: #333;
+            color: rgb(255, 255, 255);
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        /* Sections */
+        section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Home Section */
+        #home {
+            background: url('https://source.unsplash.com/1600x900/?technology,nature') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: burlywood;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+        }
+
+        /* About Section */
+        #about {
+            background: #2e5da0;
+        }
+
+        /* Projects Section */
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .project {
+            width: 300px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        /* Contact Section */
+        .social-links a {
+            margin: 10px;
+            font-size: 24px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Footer */
+        footer {
+            background:blueviolet;
+            color: bl;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I am a <span id="role">Front-end Developer</span></p>
+    </section>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hello! I'm aschalew girma, a passionate Front-end Developer with experience in HTML, CSS, JavaScript, and modern frameworks like React.</p>
+        <p>I specialize in building beautiful and functional websites with responsive design.</p>
+    </section>
+
+    <section id="projects">
+        <h1>My Projects</h1>
+        <div class="projects-container">
+            <div class="project">
+                <img src=images/image1.jpg alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Built with HTML, CSS, and JavaScript.</p>
+            
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>Email: <a href="mailto aschalewgirma068@gmail.com">aschalewgirma068@gmail.com</a></p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/aschalew-girma-4629ab298" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Profoundlife" target="_blank">GitHub</a>
+            <a href="https://twitter.com/Ggaschtahe11441" target="_blank">Twitter</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 [aschalew]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
